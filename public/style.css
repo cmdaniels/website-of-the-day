@@ -1,0 +1,34 @@
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 16px solid white;
+  height: 100vh;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  text-align: center;
+  background-color: #bbb;
+  background-image: url('thumbnail.png');
+  background-size: 100vw;
+}
+
+h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: white;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 32px);
+  background: rgba(0,0,0,0.5);
+}
